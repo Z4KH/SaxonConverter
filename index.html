@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <title>ZP Saxon Woods Converter</title>
-
-  <style>
-    body {
-        background-color: aquamarine;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -78,7 +72,7 @@
         time = parseInt(timeArray[0]) * 60 + parseFloat(timeArray[1]);
 
         // Convert seconds to lcm
-        let lcm_time = time * 1.26;
+        let lcm_time = time * 1.28;
         let scy_time = 0;
 
         
@@ -161,7 +155,7 @@
         time = parseFloat(time);
 
         // Convert Badger to LCM
-        lcm_time = time * 1.26;
+        lcm_time = time * 1.28;
         lcm_time = lcm_time.toFixed(2);
         scy_time = 0;
 
