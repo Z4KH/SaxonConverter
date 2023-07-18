@@ -27,7 +27,7 @@
       <h2>Select an event</h2>
       <br>
       <label class="custom-selector">
-        <select name="events" id="events" style="width: 800px;">
+        <select name="events" id="events" style="width: 200px; height: 50px; margin-bottom: 40px; border: solid;">
         <optgroup label="Freestyle">
           <option value="50 Free">50 Freestyle</option>
           <option value="100 Free">100 Freestyle</option>
@@ -52,7 +52,7 @@
         </select>
       <label>
       <form id="codeForm">
-        <input id="timeInput" placeholder="Input Saxon Pool Time"><br>
+        <input id="timeInput" placeholder="Input Saxon Pool Time" style="width: 200px; height: 50px; margin-bottom: 40px; border: solid;"><br>
         <div class="line"></div> 
       </form>
       <button type="submit" onclick="convert()">Submit</button>
@@ -160,7 +160,7 @@
       {
         time = parseFloat(time);
 
-        // Convert Saxon to LCM
+        // Convert Badger to LCM
         lcm_time = time * 1.26;
         lcm_time = lcm_time.toFixed(2);
         scy_time = 0;
